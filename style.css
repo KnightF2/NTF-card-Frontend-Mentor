@@ -1,0 +1,154 @@
+:root {
+  /* Colors */
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Dark-blue-body: hsl(217, 54%, 11%);
+  --Dark-blue-card: hsl(216, 50%, 16%);
+  --Dark-blue-line: hsl(215, 32%, 27%);
+  --Just-white: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--Dark-blue-body);
+}
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  max-width: 335px;
+  background-color: var(--Dark-blue-card);
+  border-radius: 15px;
+}
+.card__figure {
+  align-self: center;
+  width: 240px;
+}
+.card__figure .card__image {
+  width: 100%;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.card__body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card__body h1 {
+  margin-top: 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: var(--Just-white);
+}
+.card__body p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.first-p {
+  margin-right: 8px;
+  color: var(--Soft-blue);
+}
+.icons-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  margin-top: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--Dark-blue-line);
+}
+.icons-container p {
+  margin: 0;
+}
+.icons-container .cyan-p {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: var(--Cyan);
+  line-height: 25px;
+}
+.cyan-p .ethereum-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  background-image: url('./images/icon-ethereum.svg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.cyan-p + p {
+  display: flex;
+  align-items: center;
+  color: var(--Soft-blue);
+  font-weight: 400;
+  line-height: 25px;
+}
+.clock-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background-image: url('./images/icon-clock.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card__footer {
+  width: 100%;
+  margin: 12px 20px;
+  font-size: 14px;
+}
+.card__footer p {
+  display: flex;
+  align-items: center;
+  color: var(--Soft-blue);
+}
+.card__footer-profile {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-image: url('./images/image-avatar.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 1px solid var(--Just-white);
+}
+.white-text {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 300;
+  color: var(--Just-white);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .card-container {
+    width: 320px;
+  }
+  .card__figure {
+  width: 280px;
+  }
+}
