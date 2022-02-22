@@ -38,13 +38,39 @@ p {
 .card__figure {
   align-self: center;
   width: 240px;
+  height: 240px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.eye-icon{
+  display: none;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  z-index: 10;
+  background-image: url('./images/icon-view.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card__figure:hover .eye-icon{
+  display: inline-block;
+  position: absolute;
+  top: 115px;
+  left: 100px;
 }
 .card__figure .card__image {
+  position: relative;
   width: 100%;
-  object-fit: contain;
+  height: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-image: url('./images/image-equilibrium.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
+  overflow: hidden;
 }
 .card__body {
   margin-left: 20px;
@@ -55,6 +81,7 @@ p {
   font-size: 1.9rem;
   font-weight: 600;
   color: var(--Just-white);
+  cursor: pointer;
 }
 .card__body p {
   font-size: 1.4rem;
@@ -137,6 +164,7 @@ p {
   margin-left: 5px;
   font-weight: 300;
   color: var(--Just-white);
+  cursor: pointer;
 }
 
 footer {
@@ -150,5 +178,9 @@ footer {
   }
   .card__figure {
   width: 280px;
+  }
+  .card__figure:hover .eye-icon {
+    top: 120px;
+    left: 120px;
   }
 }
