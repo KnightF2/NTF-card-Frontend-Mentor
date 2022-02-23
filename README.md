@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/KnightF2/NTF-card-Frontend-Mentor)
+- Live Site URL: [Live site URL here](https://knightf2.github.io/NTF-card-Frontend-Mentor/)
 
 ## My process
 
@@ -41,7 +41,8 @@ Users should be able to:
 - CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Images effects
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@KnightF2](https://www.frontendmentor.io/profile/KnightF2)
