@@ -47,11 +47,7 @@ p {
   align-self: center;
   width: 40px;
   height: 40px;
-  z-index: 10;
-  background-image: url('./images/icon-view.svg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url('./images/icon-view.svg') no-repeat center/cover;
 }
 .card__figure:hover .eye-icon{
   display: inline-block;
@@ -65,10 +61,7 @@ p {
   height: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-image: url('./images/image-equilibrium.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url('./images/image-equilibrium.jpg') no-repeat center/cover;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -115,10 +108,7 @@ p {
   width: 15px;
   height: 15px;
   margin-right: 3px;
-  background-image: url('./images/icon-ethereum.svg');
-  background-size: contain;
-  background-position: bottom;
-  background-repeat: no-repeat;
+  background: url('./images/icon-ethereum.svg') no-repeat bottom/contain;
 }
 .cyan-p + p {
   display: flex;
@@ -132,10 +122,7 @@ p {
   width: 15px;
   height: 15px;
   margin-right: 5px;
-  background-image: url('./images/icon-clock.svg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url('./images/icon-clock.svg') no-repeat center/contain;
 }
 .card__footer {
   width: 100%;
@@ -152,10 +139,7 @@ p {
   width: 30px;
   height: 30px;
   margin-right: 10px;
-  background-image: url('./images/image-avatar.png');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url('./images/image-avatar.png') no-repeat center/contain;
   border-radius: 50%;
   border: 1px solid var(--Just-white);
 }
