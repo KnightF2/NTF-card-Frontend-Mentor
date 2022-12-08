@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/fermendoza18/NTF-card-Frontend-Mentor)
-- Live Site URL: [Live site URL here](https://fermendoza18.github.io/NTF-card-Frontend-Mentor/)
+- Solution URL: [Solution URL here](https://github.com/nimrodcode/NTF-card-Frontend-Mentor)
+- Live Site URL: [Live site URL here](https://nimrodcode.github.io/NTF-card-Frontend-Mentor/)
 
 ## My process
 
