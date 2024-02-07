@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/nimrodcode/NTF-card-Frontend-Mentor)
-- Live Site URL: [Live site URL here](https://nimrodcode.github.io/NTF-card-Frontend-Mentor/)
+- Solution URL: [Solution URL here](https://github.com/whiteknight-dev/NTF-card-Frontend-Mentor)
+- Live Site URL: [Live site URL here](https://whiteknight-dev.github.io/NTF-card-Frontend-Mentor/)
 
 ## My process
 
@@ -45,4 +45,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@fermendoza18](https://www.frontendmentor.io/profile/fermendoza18)
+- Frontend Mentor - [@whiteknight-dev](https://www.frontendmentor.io/profile/whiteknight-dev)
